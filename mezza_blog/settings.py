@@ -259,6 +259,7 @@ INSTALLED_APPS = (
     #"flat",
     # "nova",
     "solid",
+    "grappelli",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -312,7 +313,7 @@ if DJANGO_VERSION < (1, 10):
 # Store these package names here as they may change in the future since
 # at the moment we are using custom forks of them.
 PACKAGE_NAME_FILEBROWSER = "filebrowser_safe"
-PACKAGE_NAME_GRAPPELLI = "grappelli"
+#PACKAGE_NAME_GRAPPELLI = "grappelli"
 
 #########################
 # OPTIONAL APPLICATIONS #
@@ -324,7 +325,7 @@ OPTIONAL_APPS = (
     "django_extensions",
     "compressor",
     PACKAGE_NAME_FILEBROWSER,
-    PACKAGE_NAME_GRAPPELLI,
+    #PACKAGE_NAME_GRAPPELLI,
 )
 
 ##################
