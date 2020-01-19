@@ -259,7 +259,7 @@ INSTALLED_APPS = (
     #"flat",
     # "nova",
     "solid",
-    "django_grappelli",
+    "grappelli",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
