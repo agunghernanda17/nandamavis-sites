@@ -324,7 +324,7 @@ OPTIONAL_APPS = (
     "django_extensions",
     "compressor",
     PACKAGE_NAME_FILEBROWSER,
-    #PACKAGE_NAME_GRAPPELLI,
+    PACKAGE_NAME_GRAPPELLI,
 )
 
 ##################
