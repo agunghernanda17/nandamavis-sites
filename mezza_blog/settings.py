@@ -157,7 +157,7 @@ CACHE_MIDDLEWARE_KEY_PREFIX = PROJECT_APP
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
-STATIC_URL = "/static/"
+STATIC_URL = "/staticfiles/"
 
 
 #STATIC_ROOT = 'staticdir'
