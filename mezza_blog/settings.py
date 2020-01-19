@@ -137,6 +137,9 @@ AUTHENTICATION_BACKENDS = ("mezzanine.core.auth_backends.MezzanineBackend",)
 # a mode you'd pass directly to os.chmod.
 FILE_UPLOAD_PERMISSIONS = 0o644
 
+# SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = "menik!!!! (P.S. the SECRET_KEY environment variable will be used, if set, instead)."
+
 
 #########
 # PATHS #
