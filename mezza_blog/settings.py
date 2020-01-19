@@ -157,7 +157,7 @@ CACHE_MIDDLEWARE_KEY_PREFIX = PROJECT_APP
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
-STATIC_URL = "/staticfiles/"
+STATIC_URL = "/static/"
 
 
 #STATIC_ROOT = 'staticdir'
@@ -348,12 +348,12 @@ if os.path.exists(f):
     module.__file__ = f
     sys.modules[module_name] = module
     exec(open(f, "rb").read())
-
+'''
 # Extra places for collectstatic to find static files.
 STATICFILES_DIRS = (
     os.path.join(PROJECT_ROOT, 'static'),
 )
-
+'''
 ####################
 # DYNAMIC SETTINGS #
 ####################
