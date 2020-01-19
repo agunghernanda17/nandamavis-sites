@@ -7,7 +7,7 @@ from django.views.i18n import set_language
 
 from mezzanine.core.views import direct_to_template
 from mezzanine.conf import settings
-
+import grappelli
 # Uncomment to use blog as home page. See also urlpatterns section below.
 # from mezzanine.blog import views as blog_views
 
