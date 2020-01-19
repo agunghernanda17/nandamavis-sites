@@ -1,6 +1,6 @@
 from __future__ import unicode_literals
 
-from django.conf.urls import include, url
+from django.conf.urls import include, url, path
 from django.conf.urls.i18n import i18n_patterns
 from django.contrib import admin
 from django.views.i18n import set_language
@@ -38,7 +38,7 @@ urlpatterns += [
     # commented out like the others, so it's the default. You only need
     # one homepage pattern, so if you use a different one, comment this
     # one out.
-
+    path("admin/", admin.site.urls),
     url("^$", direct_to_template, {"template": "index.html"}, name="home"),
 
     # HOMEPAGE AS AN EDITABLE PAGE IN THE PAGE TREE
